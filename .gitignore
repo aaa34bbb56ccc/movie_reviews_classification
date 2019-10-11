@@ -1,0 +1,13 @@
+#Ignore files
+*.log
+*.lnk
+*.py
+# But descend into directories
+!*/
+# Recursively allow files under subtree
+!/input/**
+!/input/submission.csv
+/input/*.csv
+/input/*.zip
+#
+!.gitignore
